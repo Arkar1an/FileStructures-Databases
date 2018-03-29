@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head><title>332 Project</title></head>
+<body>
+
+<div id="main">
+		<h1 style="color:orange;"><strong>CPSC 332 Fall 2016 Final Project</strong></h1>
+		<h5><i>Created by: Russell Richardson and Jose Urrutia</i></h5>
+        </div>
+
+<form action="forProfessorsSchedule.php" method="POST">
+    <div style="background-color:white;"></div>
+
+    <p><legend style="color:#0066cc;"><b>For the Professors</b></legend>
+
+    <ins><br>Find Professor Schedule<br></ins>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enter Professor SSN: <input type="text" name="sno"/>
+    <input type="submit"/></p>
+</form>
+
+<form action="forProfessorsGrades.php" method="POST">
+    <p><ins><br>Grade Count<br></ins>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enter Course Number (Ex. CPSC-131): <input type="text" name="courseNumber"><br>  
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and Section Number (Ex. 74937): <input type="text" name="sectionNumber">
+    <input type="submit" value="Submit"></p>
+    
+</form>
+
+<form action="forStudentsSections.php" method="POST">
+    <div style="background-color:white;"></div>
+    
+    <p><legend style="color:#0066cc;"><b>For the Students</b></legend>
+
+    <ins><br>Find Course Sections<br></ins>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enter Course Number (Ex. CPSC-131): <input type="text" name="courseNumber" />
+    <input type="submit"/></p>
+</form>
+
+<form action="forStudentsEnrollment.php" method="POST">
+    <p><ins><br>Student Class Records<br></ins>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enter CWID: <input type="text" name="studentCWID" />
+    <input type="submit"/></p>
+</form>
+
+
+</body>
+</html>
